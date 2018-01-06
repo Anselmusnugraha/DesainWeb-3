@@ -1,0 +1,153 @@
+#logo{
+  max-height:48px;
+  margin-right:10px;
+  margin-top:-7px;
+  display:inline-block;
+  float:left;
+}
+
+#logofoot{
+  max-height:35px;
+  margin-right:10px;
+  margin-top:10px;
+  display:inline-block;
+  float:left;
+}
+
+#promo{
+  text-align:center;
+  padding:40px;
+  
+}
+
+@media (max-width:1199px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+#promo .jumbotron{
+  border-radius:40px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:1199px) {
+  #promo .jumbotron{
+    padding:20px;
+  }
+}
+
+header{
+  background: #0DAEFF;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+  overflow:hidden;
+}
+
+header a{
+  color: #dddddd;
+  text-decoration:none;
+}
+
+header img{
+  float: left;
+}
+
+header h1{
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.page{
+  background:url() right top no-repeat;
+}
+.one{
+  background:url(../../assets/img/krakow-the-market-the-old-town-old-town-161196.jpeg)no-repeat;
+  background-size:cover;
+}
+
+.one .page-container h2{
+  font-size: 4em;
+}
+
+.one .page-container p{
+  padding: 20px 0;
+  line-height: 1.5em;
+}
+
+.two{
+  background:url(../../assets/img/pexels-photo-297755.jpeg)no-repeat;
+  background-size:cover;
+}
+
+.two .page-container h2{
+  font-size: 4em;
+}
+
+.two .page-container{
+  padding: 0px 0;
+  line-height: 1.5em;
+}
+
+.three{
+  background:url(../../assets/img/hiker-travel-trip-wander-163688.jpeg)no-repeat;
+  background-size:cover;
+}
+
+.three .page-container h2 {
+  font-size: 4em;
+}
+
+.three .page-container{
+  padding: 20px 0;
+  line-height: 1.5em;
+}
+
+/* TAMBAHAN*/
+
+body{
+  font-family:Georgia,Helvetica,Arial,serif;
+}
+
+.site-section{
+  background-color: rgba(255,255,255,0.75);
+  text-align:center;
+  padding:20px;
+  padding-bottom: 160px;
+}
+
+.site-section h1{
+  font-weight:normal;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.site-section p{
+font-size: 14pt;
+padding-top: 0px;
+padding-bottom: 10px;
+}
+
+.caption p{
+  text-align: left;
+  font-size:12pt;
+}
+
+.caption h3{
+  text-align: left;
+}
+
+#welcome p{
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+}
+
+#row.row.item{
+  padding:20px;
+}
